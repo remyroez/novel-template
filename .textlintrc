@@ -33,6 +33,7 @@
       "strict": false,
       "allow": []
     },
-    "ja-no-abusage": true
+    "ja-no-abusage": true,
+    "no-doubled-conjunctive-particle-ga": true,
   }
 }

@@ -35,5 +35,6 @@
     },
     "ja-no-abusage": true,
     "no-doubled-conjunctive-particle-ga": true,
+    "no-doubled-conjunction": true
   }
 }

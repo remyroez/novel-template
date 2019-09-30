@@ -1,7 +1,11 @@
 {
   "filters": {},
   "rules": {
-    "preset-jtf-style": true,
+    "preset-jtf-style": {
+      "2.1.5.カタカナ": true, // false
+      "2.1.6.カタカナの長音": true, // false
+      "2.2.1.ひらがなと漢字の使い分け": true, // false
+    },
     "preset-ja-spacing": false,
     "general-novel-style-ja": {
       // 各段落の先頭に許可する文字 (false: チェックしない)
@@ -30,5 +34,6 @@
       "strict": false,
       "allow": []
     },
+    "ja-no-abusage": true
   }
 }

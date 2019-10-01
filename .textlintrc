@@ -1,10 +1,12 @@
 {
   "filters": {},
   "rules": {
+    "ja-no-abusage": true,
+    "ja-unnatural-alphabet": true,
     "preset-jtf-style": {
       "2.1.5.カタカナ": true, // false
       "2.1.6.カタカナの長音": true, // false
-      "2.2.1.ひらがなと漢字の使い分け": true, // false
+      "2.2.1.ひらがなと漢字の使い分け": true // false
     },
     "general-novel-style-ja": {
       // 各段落の先頭に許可する文字 (false: チェックしない)
@@ -28,7 +30,6 @@
       // アラビア数字の桁数は2桁まで (false: チェックしない)
       "max_arabic_numeral_digits": 2
     },
-    "ja-no-abusage": true,
     "preset-japanese": {
       // https://github.com/textlint-ja/textlint-rule-max-ten
       // 一文で使える"、"の数

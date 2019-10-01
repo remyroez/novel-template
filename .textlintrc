@@ -3,6 +3,7 @@
   "rules": {
     "ja-no-abusage": true,
     "ja-unnatural-alphabet": true,
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
     "preset-jtf-style": {
       "2.1.5.カタカナ": true, // false
       "2.1.6.カタカナの長音": true, // false

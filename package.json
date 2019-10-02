@@ -2,7 +2,6 @@
     "name": "novel-template",
     "version": "1.0.0",
     "description": ":pencil: Node.js novel writing environment templates",
-    "main": "index.js",
     "scripts": {
         "lint": "textlint ./txt/*.txt",
         "lintfix": "textlint --fix ./txt/*.txt",

@@ -1,0 +1,33 @@
+{
+    "name": "novel-template",
+    "version": "1.0.0",
+    "description": ":pencil: Node.js novel writing environment templates",
+    "scripts": {
+        "lint": "textlint ./txt/*.txt",
+        "lintfix": "textlint --fix ./txt/*.txt",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/remyroez/novel-template.git"
+    },
+    "author": "remyroez",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/remyroez/novel-template/issues"
+    },
+    "homepage": "https://github.com/remyroez/novel-template#readme",
+    "devDependencies": {
+        "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^1.0.1",
+        "textlint": "^11.3.1",
+        "textlint-rule-general-novel-style-ja": "^1.3.0",
+        "textlint-rule-ja-hiragana-hojodoushi": "^1.0.4",
+        "textlint-rule-ja-no-abusage": "^2.0.1",
+        "textlint-rule-ja-no-mixed-period": "^2.1.1",
+        "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
+        "textlint-rule-prefer-tari-tari": "^1.0.3",
+        "textlint-rule-preset-japanese": "^4.0.4",
+        "textlint-rule-preset-jtf-style": "^2.3.3"
+    },
+    "dependencies": {}
+}
